@@ -16,8 +16,8 @@
   "bugs": "this is auto replaced",
   "version": "This is auto replaced",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": 11,
+    "verified": 11
   },
   "esmodules": ["modules/pf2-shields-token-bar.mjs"],
   "relationships": {
@@ -26,8 +26,8 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.2.5",
-          "verified": "4.2.5"
+          "minimum": 5,
+          "verified": "5.12.3"
         }
       }
     ],
@@ -36,8 +36,8 @@
         "id": "lib-wrapper",
         "type": "module",
         "compatibility": {
-          "minimum": "1.12.7.0",
-          "verified": "1.12.7.0"
+          "minimum": "1.12.13.0",
+          "verified": "1.12.13.0"
         }
       }
     ]

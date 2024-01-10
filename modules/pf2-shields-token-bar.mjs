@@ -88,12 +88,7 @@ function getBarAttribute(wrapped, barName, { alternative } = {}) {
 }
 
 function onUpdateItem(item) {
-  if (
-    item.actor &&
-    !item.actor.isToken &&
-    item.type === "armor" &&
-    item.system.category === "shield"
-  ) {
+  if (item.actor && !item.actor.isToken && item.type === "shield") {
     const tokens = item.actor.getActiveTokens(false, true);
     for (const t of tokens) {
       if (t.parent.isView) {

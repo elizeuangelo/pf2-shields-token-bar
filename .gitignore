@@ -7,3 +7,4 @@ client
 common
 .vscode/
 jsconfig.json
+*.lock
