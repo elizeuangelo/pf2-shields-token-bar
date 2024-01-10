@@ -48,7 +48,7 @@ async function modifyTokenAttribute(
     const actorShield = "shield" in attributes ? attributes.shield : null;
     const shield = (() => {
       const item = this.items.get(actorShield?.itemId ?? "");
-      return item?.isOfType("armor") ? item : null;
+      return item?.isOfType("shield") ? item : null;
     })();
     if (!shield) return this;
 
